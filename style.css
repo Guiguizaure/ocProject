@@ -1,0 +1,357 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* font for logo */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* font for important text */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap');
+
+/* font for normal text */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500&display=swap');
+
+
+#landing-page{
+    position: static;
+}
+
+/* HEADER */
+
+#top-landing-page{
+    background: url(img/bg-img.jpg);
+    height: 60vh;
+    min-height: 550px;
+    background-size: cover;
+    padding: 20px;
+}
+
+
+#top-landing-page header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5% ;
+    height: 10%;
+}
+
+#top-landing-page header h1{
+    font-family: 'Righteous', cursive;   
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+#top-landing-page h1 > span{
+    color: rgb(255, 223, 118);
+    transition: 0.5s ease-in-out;
+}
+#top-landing-page h1 > span:hover{
+    margin-left: 10px;
+    color: black;
+}
+
+#top-landing-page header nav a{
+    padding: 12px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav a:nth-of-type(6) {
+    padding: 11px 23px 11px 23px !important;
+    color: black !important;
+    background: rgb(255, 223, 118);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 5em;
+    font-family: 'Yantramanav', sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    transition: ease-out 0.3s;
+  }
+  nav a:nth-of-type(6):hover{
+    color: white !important;
+    background: rgb(255, 132, 56) !important;
+  }
+
+.in-top-landing-page{
+    margin: 70px 90px 0 90px;
+    height: 80%;
+}
+
+.in-top-landing-page h1{
+    font-family: 'righteous', cursive;
+    font-size: 400%;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.in-top-landing-page > p{
+    font-family: 'Yantramanav', sans-serif;
+    color: white;
+    margin: 30px 0;
+    width: 450px;
+}
+
+.in-top-landing-page > a{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 11px 23px 11px 23px;
+    background: rgb(255, 223, 118);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 17px;
+    transition: 0.3s ease-out;
+}
+.in-top-landing-page > a:hover{
+    color: white;
+    background: rgb(255, 132, 56);
+}
+
+.search-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background : white;
+    margin-top: 65px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+}
+
+.search-nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+}
+
+.search-nav i{
+    font-size: 80%;
+    color: orange;
+    font-weight: 700;
+    transition: 0.3s ease-out;
+}
+.search-nav i:hover{
+    font-size: 89%;
+}
+
+
+.search-nav p{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 80%;
+    color: rgb(121, 121, 121);
+    margin-top: 10px;
+}
+
+.explore-now{
+    background:rgb(255, 223, 118);
+    padding: 16px 23px 16px 23px;
+    border-radius: 5px;
+    transition: 0.4s ease-out;
+}
+.explore-now:hover{
+    font-size: 120%;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px -6px rgb(203, 203, 203);
+}
+
+/* BOTTOM LANDING PAGE */
+
+#bottom-landing-page h1{
+    margin-top: 25px;
+    font-family: 'righteous', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+#bottom-landing-page h1 img{
+    max-width: 7%;
+    position: absolute;
+    right: 31%;
+    top: 80%;
+    transition: 0.7s ease-in-out;
+}
+#bottom-landing-page h1 img:hover{
+    right: 31%;
+    top: 76%;
+}
+
+.popular-place{
+    margin: 30px 0 0 110px;
+    height: 180px;
+    width: 400px;
+}
+.popular-place h2{
+    font-family:'Yantramanav', sans-serif;
+    font-size: 20px;
+    margin: 10px 0 15px 0;
+}
+
+
+.popular-place i{
+    margin-right: 6px;
+    color: rgb(255, 111, 0);
+}
+
+.countries{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.popular-place img{
+    border-radius: 12px;
+    object-fit: cover;
+    transition: ease-out 0.3s;
+    opacity: 1;
+}
+.popular-place img:hover{
+    transform: rotate(1deg);
+    width: 135px;
+    height: 135px;
+}
+
+/* Location Card - ASIDE */
+
+#location{
+    box-shadow: 0 8px 20px -6px rgb(203, 203, 203);
+    border-radius: 10px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    height: 270px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    transition: 0.4s ease-out;
+}
+#location:hover{
+    opacity: 1;
+    background: rgb(255, 195, 83);
+    top: 54%;
+    color: white;
+}
+.location-img{
+    background: url(img/location.jpg);
+    height: 120px;
+    width: 170px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.location-img i{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 29%;
+    right: 37%;
+   
+}
+.location-img > p{
+    position: absolute;
+    font-family:'Yantramanav', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 17px;
+    top: 65%;
+    right: 31%;
+}
+
+#location img{
+    object-fit:cover;
+    border-radius: 50px;
+    border: white 1px solid;
+    position: absolute;
+    top: 38%;
+    right: 13%;
+}
+.choose{
+    font-family:'Yantramanav', sans-serif;
+    margin: 0 10px;
+    text-align: center;
+}
+.location-button{
+    margin-bottom: 20px;
+    background: rgb(135, 49, 255);
+    color: white;
+    font-family: 'righteous', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 15px -6px rgb(100, 139, 255);
+    width: 80%;
+    height: 35px;
+
+}
