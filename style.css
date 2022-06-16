@@ -1,7 +1,7 @@
 
 
 
-#landing-page{
+##landing-page{
     position: static;
 }
 
@@ -11,8 +11,14 @@
     background: url(img/bg-img.jpg);
     height: 80vh;
     min-height: 600px;
+    width: auto;
     background-size: cover;
     padding: 20px;
+}
+@media screen and (max-width: 400px){
+    #top-landing-page{
+        height: 95vh;
+    }
 }
 #top-landing-page header i{
     display: none;
@@ -108,7 +114,6 @@ nav a:nth-of-type(6) {
 
 .in-top-landing-page{
     margin: 70px 80px 0 80px;
-    padding-left: 30px;
     height: 470px;
     max-height: 1100px;
     
@@ -123,6 +128,11 @@ nav a:nth-of-type(6) {
         border: none;
     }
 }
+@media screen and (max-width: 400px){
+    .in-top-landing-page{
+        height: 490px;
+    }
+}
 .in-top-landing-page::before{
     border-left: solid white 1px;
 }
@@ -134,6 +144,11 @@ nav a:nth-of-type(6) {
     font-size: 400%;
     color: white;
     letter-spacing: 2px;
+}
+@media screen and (max-width: 400px){
+    .in-top-landing-page h1{
+        font-size: 50px;
+    }
 }
 
 .in-top-landing-page > p{
@@ -171,6 +186,12 @@ nav a:nth-of-type(6) {
     .in-top-landing-page > p{
         width: 400px;
         height: 110px;
+    }
+}
+@media screen and (max-width: 400px){
+    .in-top-landing-page > p{
+        width: 300px;
+        height: 125px;
     }
 }
 .in-top-landing-page > p i{
@@ -225,12 +246,23 @@ nav a:nth-of-type(6) {
         height: 35px;
     }
 }
+@media screen and (max-width: 400px){
+    .search-nav{
+        width: 300px;
+        height: 35px;
+    }
+}
 
 .search-nav a{
     text-decoration: none;
     color: black;
     font-family: 'Yantramanav', sans-serif;
     font-weight: 500;
+}
+@media screen and (max-width: 400px){
+    .search-nav a{
+        font-size: 14px;
+    }
 }
 
 .search-nav i{
@@ -267,6 +299,11 @@ nav a:nth-of-type(6) {
         padding: 12px 23px 12px 23px;
     }
 }
+@media screen and (max-width: 400px){
+    .explore-now{
+        padding: 6px 14px 6px 14px;
+    }
+}
 .explore-now:hover{
     font-size: 120%;
     padding: 10px 15px 10px 15px;
@@ -291,6 +328,11 @@ nav a:nth-of-type(6) {
     letter-spacing: 1px;
     position: relative;
 }
+@media screen and (max-width: 400px){
+    #bottom-landing-page h1{
+        margin-top: 40px;
+    }
+}
 
 #bottom-landing-page h1 img{
     max-width: 7%;
@@ -309,6 +351,9 @@ nav a:nth-of-type(6) {
     top: 76%;
 }
 
+
+/* Popular Place */
+
 .popular-place{
     margin: 30px 0 0 110px;
     height: 180px;
@@ -319,10 +364,22 @@ nav a:nth-of-type(6) {
         margin: 50px auto;
     }
 }
+@media screen and (max-width: 400px){
+    .popular-place{
+        height: 500px;
+        width: 300px;
+    }
+}
 .popular-place h2{
     font-family:'Yantramanav', sans-serif;
     font-size: 20px;
     margin: 10px 0 15px 0;
+}
+@media screen and (max-width: 400px){
+    .popular-place h2{
+        text-align: center;
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -335,6 +392,14 @@ nav a:nth-of-type(6) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+@media screen and (max-width: 400px){
+    .countries{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 430px;
+    }
 }
 .popular-place img{
     border-radius: 12px;
