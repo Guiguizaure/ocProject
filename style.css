@@ -1,7 +1,4 @@
-
-
-
-##landing-page{
+#landing-page{
     position: static;
 }
 
@@ -15,7 +12,7 @@
     background-size: cover;
     padding: 20px;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     #top-landing-page{
         height: 95vh;
     }
@@ -128,7 +125,7 @@ nav a:nth-of-type(6) {
         border: none;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .in-top-landing-page{
         height: 490px;
     }
@@ -145,7 +142,7 @@ nav a:nth-of-type(6) {
     color: white;
     letter-spacing: 2px;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .in-top-landing-page h1{
         font-size: 50px;
     }
@@ -188,7 +185,7 @@ nav a:nth-of-type(6) {
         height: 110px;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .in-top-landing-page > p{
         width: 300px;
         height: 125px;
@@ -246,7 +243,7 @@ nav a:nth-of-type(6) {
         height: 35px;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .search-nav{
         width: 300px;
         height: 35px;
@@ -259,7 +256,7 @@ nav a:nth-of-type(6) {
     font-family: 'Yantramanav', sans-serif;
     font-weight: 500;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .search-nav a{
         font-size: 14px;
     }
@@ -299,7 +296,7 @@ nav a:nth-of-type(6) {
         padding: 12px 23px 12px 23px;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .explore-now{
         padding: 6px 14px 6px 14px;
     }
@@ -328,7 +325,7 @@ nav a:nth-of-type(6) {
     letter-spacing: 1px;
     position: relative;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     #bottom-landing-page h1{
         margin-top: 40px;
     }
@@ -364,7 +361,7 @@ nav a:nth-of-type(6) {
         margin: 50px auto;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .popular-place{
         height: 500px;
         width: 300px;
@@ -375,7 +372,7 @@ nav a:nth-of-type(6) {
     font-size: 20px;
     margin: 10px 0 15px 0;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .popular-place h2{
         text-align: center;
         padding-bottom: 10px;
@@ -393,7 +390,7 @@ nav a:nth-of-type(6) {
     flex-direction: row;
     justify-content: space-between;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .countries{
         display: flex;
         flex-direction: column;
